@@ -7,6 +7,7 @@
 
 import React from "react"
 import PropTypes from "prop-types"
+import Navbar from "../components/globals/navbar"
 
 import "./bootstrap.min.css"
 // import "./layout.css"
@@ -16,6 +17,7 @@ const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <GlobalStyle />
+      <Navbar />
       {children}
     </React.Fragment>
   )
