@@ -6,7 +6,6 @@ export const colors = {
   mainGrey: `#474747`,
 }
 export const textSlanted = `font-family:'Caveat', cursive;`
-
 export const transDefault = "transition:all 0.5s ease-in-out"
 export const transFunction = (
   property = "all",
@@ -22,7 +21,6 @@ export const transObject = ({
 }) => {
   return `transition: ${property} ${time} ${type}`
 }
-
 export const transition = ({
   property = "all",
   time = "0.5s",
@@ -30,7 +28,6 @@ export const transition = ({
 }) => {
   return `transition: ${property} ${time} ${type}`
 }
-
 export const border = ({
   width = "0.15rem",
   type = "solid",
@@ -38,7 +35,6 @@ export const border = ({
 }) => {
   return `border:${width} ${type} ${color}`
 }
-
 export const letterSpacing = ({ spacing = "0.1rem" }) => {
   return `letter-spacing:${spacing}`
 }
