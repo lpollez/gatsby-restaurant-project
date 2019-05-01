@@ -11,6 +11,7 @@ import Navbar from "../components/globals/navbar"
 
 import "./bootstrap.min.css"
 // import "./layout.css"
+
 import { createGlobalStyle } from "styled-components"
 
 const Layout = ({ children }) => {

@@ -1,34 +1,28 @@
 import React from "react"
 import styled from "styled-components"
-import img from "../images/bcg/homeBcg.jpeg"
+import BackgroundImage from "gatsby-background-image"
 
 function HomeHeader({ img, children }) {
-  return <IndexHeader img={img}>{children}</IndexHeader>
+  return <IndexHeader fluid={img}>{children}></IndexHeader>
 }
 
 function PageHeader({ img, children }) {
-  return <DefaultHeader img={img}>{children}</DefaultHeader>
+  return <DefaultHeader fluid={img}>{children}</DefaultHeader>
 }
 
-const IndexHeader = styled.header`
+const IndexHeader = styled(BackgroundImage)`
   min-height: calc(100vh - 55.78px);
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(${props => props.img}) center/cover fixed no-repeat;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  opacity: 1 !important;
+  background: rgba(0, 0, 0, 0.4);
+  background-position: center;
+  background-size: cover;
 `
 
 const DefaultHeader = styled(IndexHeader)`
   min-height: 60vh;
 `
-
-HomeHeader.defaultProps = {
-  img: img,
-}
-
-PageHeader.defaultProps = {
-  img: img,
-}
 
 export { HomeHeader, PageHeader }
