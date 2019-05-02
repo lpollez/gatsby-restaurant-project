@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
-import { HomeHeader } from "../utils"
+import { HomeHeader } from "../utils" // by default, the index.js file inside a folder
 
 const IndexPage = ({ data }) => (
   <Layout>
