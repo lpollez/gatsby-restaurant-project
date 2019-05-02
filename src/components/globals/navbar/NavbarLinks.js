@@ -58,10 +58,11 @@ const LinkWrapper = styled.ul`
     text-transform: capitalize;
     cursor: pointer;
     ${styles.transDefault};
-    &:hover {
+  }
+  @media (hover) {
+    .nav-link:hover {
       background: ${styles.colors.mainGrey};
       color: ${styles.colors.mainYellow};
-      /* padding: 0.5rem 1rem 0.5rem 1.3rem; */
     }
   }
   height: ${props => (props.open ? "150px" : "0px")};
