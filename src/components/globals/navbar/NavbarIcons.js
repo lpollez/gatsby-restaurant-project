@@ -43,7 +43,9 @@ const IconWrapper = styled.div`
     font-size: 1.3rem;
     cursor: pointer;
     ${styles.transFunction()};
-    &:hover {
+  }
+  @media (hover) {
+    .icon:hover {
       color: ${styles.colors.mainYellow};
     }
   }
