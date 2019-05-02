@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
 import { HomeHeader, Banner, BannerButton } from "../utils" // by default, the index.js file inside a folder
+import QuickInfo from "../components/homepagecomponents/QuickInfo"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = ({ data }) => (
         <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
       </Banner>
     </HomeHeader>
+    <QuickInfo />
   </Layout>
 )
 
