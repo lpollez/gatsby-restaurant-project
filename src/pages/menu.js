@@ -2,12 +2,14 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
-import { PageHeader } from "../utils"
+import { PageHeader, Banner } from "../utils"
 
 const MenuPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <PageHeader img={data.img.childImageSharp.fluid} />
+    <PageHeader img={data.img.childImageSharp.fluid}>
+      <Banner title="menu" subtitle="let's dig in" />
+    </PageHeader>
   </Layout>
 )
 
