@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import { HomeHeader, Banner, BannerButton } from "../utils" // by default, the index.js file inside a folder
 import QuickInfo from "../components/homepagecomponents/QuickInfo"
 
@@ -10,7 +10,9 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader img={data.img.childImageSharp.fluid}>
       <Banner title="eatery" subtitle="55 main street - Santa Monica, CA">
-        <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
+        <Link to="/menu/" style={{ textDecoration: "none" }}>
+          <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
+        </Link>
       </Banner>
     </HomeHeader>
     <QuickInfo />
