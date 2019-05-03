@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import { Link, graphql } from "gatsby"
 import { HomeHeader, Banner, BannerButton } from "../utils" // by default, the index.js file inside a folder
 import QuickInfo from "../components/homepagecomponents/QuickInfo"
+import Gallery from "../components/homepagecomponents/Gallery"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -16,6 +17,7 @@ const IndexPage = ({ data }) => (
       </Banner>
     </HomeHeader>
     <QuickInfo />
+    <Gallery />
   </Layout>
 )
 
