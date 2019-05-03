@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby"
 import { HomeHeader, Banner, BannerButton } from "../utils" // by default, the index.js file inside a folder
 import QuickInfo from "../components/homepagecomponents/QuickInfo"
 import Gallery from "../components/homepagecomponents/Gallery"
+import Menu from "../components/homepagecomponents/Menu"
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -18,6 +19,7 @@ const IndexPage = ({ data }) => (
     </HomeHeader>
     <QuickInfo />
     <Gallery />
+    <Menu />
   </Layout>
 )
 
