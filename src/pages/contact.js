@@ -8,7 +8,7 @@ const ContactPage = ({ data }) => (
   <Layout>
     <SEO title="Contact" keywords={[`gatsby`, `application`, `react`]} />
     <PageHeader img={data.img.childImageSharp.fluid}>
-      <Banner title="contact us" subtitle="let's get in touch" />
+      <Banner title="contactez nous" subtitle="gardons le contact" />
     </PageHeader>
   </Layout>
 )

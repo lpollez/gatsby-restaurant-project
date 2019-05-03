@@ -6,9 +6,9 @@ import { PageHeader, Banner } from "../utils"
 
 const AboutPage = ({ data }) => (
   <Layout>
-    <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="A propos" keywords={[`gatsby`, `application`, `react`]} />
     <PageHeader img={data.img.childImageSharp.fluid}>
-      <Banner title="about us" subtitle="a little about us" />
+      <Banner title="A propos" subtitle="un peu de nous" />
     </PageHeader>
   </Layout>
 )

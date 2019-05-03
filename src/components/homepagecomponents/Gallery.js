@@ -33,7 +33,7 @@ export default function Gallery() {
                 return (
                   <div key={index} className={`item item-${index + 1}`}>
                     <Img fluid={node.childImageSharp.fluid} />
-                    <p className="info">awesome</p>
+                    <p className="info">Impressionnant</p>
                   </div>
                 )
               })}

@@ -6,9 +6,9 @@ import { PageHeader, Banner } from "../utils"
 
 const MenuPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Menu" keywords={[`gatsby`, `application`, `react`]} />
     <PageHeader img={data.img.childImageSharp.fluid}>
-      <Banner title="menu" subtitle="let's dig in" />
+      <Banner title="menu" subtitle="Un petit creux" />
     </PageHeader>
   </Layout>
 )

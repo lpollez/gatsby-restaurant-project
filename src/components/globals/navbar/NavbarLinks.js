@@ -9,12 +9,12 @@ export default class NavbarLinks extends Component {
       {
         id: 0,
         path: "/",
-        name: "home",
+        name: "accueil",
       },
       {
         id: 1,
         path: "/about",
-        name: "about",
+        name: "a propos",
       },
       {
         id: 2,

@@ -27,7 +27,7 @@ const PRODUCTS = graphql`
 export default function Menu() {
   return (
     <Section>
-      <Title title="featured items" message="little taste" />
+      <Title title="En ce moment" message="un petit creux" />
       <ProductList>
         <StaticQuery
           query={PRODUCTS}
