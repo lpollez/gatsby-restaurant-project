@@ -8,15 +8,24 @@ export default class QuickInfo extends Component {
   render() {
     return (
       <Section>
-        <Title message="laissez-nous vous dire" title="notre mission" />
+        <Title message="laissez-nous vous dire" title="infos" />
         <QuickInfoWrapper>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            ducimus facilis consequuntur, cumque placeat, tempora iusto nostrum
-            reprehenderit eum quis quibusdam sequi consequatur, nulla cupiditate
-            perferendis ratione nemo. Dolore repellendus cupiditate tenetur sunt
-            eaque commodi tempora molestiae similique quo repudiandae, sapiente
-            sequi alias quos, exercitationem quis id, quas omnis adipisci?
+            Ceci est un simple exemple de site vitrine. Il est développé avec
+            les technologies modernes (notamment React qui est la librairie de
+            programmation développée par Facebook), ce qui le rend très
+            performant. A contenu égal, il est 6 à 10 fois plus rapide qu'un
+            site développé avec un CMS standard comme Wordpress ou Drupal. De
+            plus, cette technologie offre une sécurité optimale et un
+            hébergement simplifié. On remarque facilement sur ce site de
+            démonstration le chargement initial des images en arrière plan avec
+            une preview pour améliorer l'expérience utilisateur. C'est l'un des
+            nombreux composants de cette librairie qui permet d'accélérer
+            grandement le chargement des pages. Bien sûr, le site est
+            responsive, càd que son contenu s'adapte à la taille de l'écran. Les
+            possibilités de développement sont extrêmement puissantes et
+            nombreuses (site vitrine, site e-commerce, applications métiers,
+            progressive web apps, ...).
           </p>
           <Link to="/about/" style={{ textDecoration: "none" }}>
             <SectionButton style={{ margin: "2rem auto" }}>

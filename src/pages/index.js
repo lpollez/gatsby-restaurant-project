@@ -11,10 +11,7 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Accueil" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader img={data.img.childImageSharp.fluid}>
-      <Banner
-        title="eatery"
-        subtitle="site vitrine exemple développé avec Gatsby !"
-      >
+      <Banner title="eatery" subtitle="exemple de site vitrine">
         <Link to="/menu/" style={{ textDecoration: "none" }}>
           <BannerButton style={{ margin: "2rem auto" }}>menu</BannerButton>
         </Link>
