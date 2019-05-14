@@ -22,10 +22,10 @@ export default class QuickInfo extends Component {
             une preview pour améliorer l'expérience utilisateur. C'est l'un des
             nombreux composants de cette librairie qui permet d'accélérer
             grandement le chargement des pages. Bien sûr, le site est
-            responsive, càd que son contenu s'adapte à la taille de l'écran. Les
-            possibilités de développement sont extrêmement puissantes et
-            nombreuses (site vitrine, site e-commerce, applications métiers,
-            progressive web apps, ...).
+            responsive, ce qui veut dire que son contenu s'adapte à la taille de
+            l'écran. Les possibilités de développement sont extrêmement
+            puissantes et nombreuses (site vitrine, site e-commerce,
+            applications métiers, progressive web apps, ...).
           </p>
           <Link to="/about/" style={{ textDecoration: "none" }}>
             <SectionButton style={{ margin: "2rem auto" }}>
